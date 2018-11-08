@@ -1,0 +1,12 @@
+root: {
+    --light: ;
+    --dark: ;
+    --shadow: 0 1px 5px rgba(34, 76, 0, 0.8);
+    --primary: ;
+    --secondary: ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
