@@ -16,6 +16,15 @@
                 <li><a href="#">Jobs</a></li>
             </ul>
         </div>
+        <div class="section1">
+            <h2>section 1</h2>
+        </div>
+        <div class="section2">
+            <h2>section 2</h2>
+        </div>
+        <div class="footer">
+            <p>&copy; 2018 John Jarrell Enterprises.</p>
+        </div>
     </div>
 </body>
 </html>
