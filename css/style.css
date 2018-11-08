@@ -10,3 +10,15 @@ root: {
     margin: 0;
     padding: 0;
 }
+
+body {
+    box-sizing: border-box;
+    line-height: 1.4;
+    background: url(../img/body-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 30px 50px;
+}
