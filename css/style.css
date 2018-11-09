@@ -1,6 +1,6 @@
-root: {
-    --light: ;
-    --dark: ;
+:root {
+    --light: rgba(245, 181, 83, 0.6);
+    --dark: rgba(0, 0, 0, 0.5);
     --shadow: 0 1px 5px rgba(34, 76, 0, 0.8);
     --primary: ;
     --secondary: ;
@@ -17,8 +17,51 @@ body {
     background: url(../img/body-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     margin: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.header,
+.footer {
+    grid-column: 1/5;
+    background: rgba(133, 72, 54, 0.6);
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.header .nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+}
+
+.header .nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--light);
+    text-transform: uppercase;
+    box-shadow: var(--shadow);
+    background: var(--dark);
+    padding: 0.8rem;
+    transition: 0.5s;
+}
+
+.header .nav li a:hover {
+    background: var(--light);
+    color: var(--dark);
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    text-transform: uppercase;
 }

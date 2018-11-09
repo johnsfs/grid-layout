@@ -16,6 +16,9 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Jobs</a></li>
             </ul>
+            <header>
+                <h1>Spice Coffee House</h1>
+            </header>
         </div>
         <div class="section1">
             <h2>section 1</h2>
