@@ -16,19 +16,16 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Jobs</a></li>
             </ul>
-            <header>
-                <h1>Spice Coffee House</h1>
-            </header>
         </div>
         <div class="section1">
-            <h1>Your Presence On The Web</h1>
+            <h1>The Coffee Bean Coffe Shop</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minima reprehenderit eius iste optio sunt, sed maiores quam tenetur consequuntur beatae accusantium, accusamus officia officiis sit architecto quaerat sapiente fuga delectus eum omnis incidunt labore! Mollitia ipsa blanditiis sapiente maxime?</p>
         </div>
         <div class="section2">
             <h2>section 2</h2>
         </div>
         <div class="footer">
-            <p>&copy; 2018 John Jarrell Enterprises.</p>
+            <p>&copy; 2018 The Coffee Bean Coffee Shop. Site created by jjarrellwebdev.com</p>
         </div>
     </div>
 </body>
